@@ -1,0 +1,12 @@
+#include<iostream>                                                  // importing libraries
+#include<algorithm>
+
+using namespace std;                                                // declaring syntax
+
+int main
+{ 
+ int a,b,sum=0;
+ cin>>a>>b;                                                         // taking input
+ sum=a+b;                                                           
+ cout<< "Addition of two numbers is : " << sum << '\n';             // showing output
+}
